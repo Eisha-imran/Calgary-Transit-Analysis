@@ -41,4 +41,28 @@ To explore the selected datasets we have come up with the following research que
 
 15- How does the total distance travelled for each trip compare to the total travel time?
 
+### Datasets
+
+The datasets for our project were retrieved from Calgary Transit, a mission-driven initiative that provides data and advocacy about transit in residential communities. The data is open for all, showing transparency in the government and innovation and reuse of the data by citizens and community-based organizations. These data sets can be downloaded at no charge from the City of Calgary’s Open Data Portal here, with use subject to the Open Government Licence — City of Calgary.
+
+The datasets are in TXT format, enclosed in a zip file, and easy to process using Python and a database. At the time of the proposal, the Calgary transit data was last updated from the website on October 24, 2024. It contains 8 datasets, with data, metadata/data dictionary, and validation constraints provided according to the General Transit Feed Specification (GTFS):
+
+Agency: Transit agencies with service represented in this dataset.
+
+Calendar: Service dates specified using a weekly schedule with start and end dates.
+
+Calendar Dates: Exceptions for the services defined in the calendar dataset
+
+Stops: Stops where vehicles pick up or drop off riders.
+
+Trips: Trips for each route. A trip is a sequence of two or more stops that occur during a specific time period.
+
+Routes: Transit routes. A route is a group of trips that are displayed to riders as a single service.
+
+Shapes: Rules for mapping vehicle travel paths, sometimes referred to as route alignments.
+
+Stop Times: Times that a vehicle arrives at and departs from stops for each trip.
+
+This analysis focuses primarily on the routes, trips, stops, and stop times datasets, with some secondary usage of the calendar dataset. There are relationships between these data as shown below.
+
 
